@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+  MyCrossplatformLib.cpp
+D:\Study\2semLabs\isp\.NET Lab4\dotNetLab4\MyCrossplatformLib\MyCrossplatformLib.cpp(13,22): warning C4305: 'return': truncation from 'double' to 'float'
+  Generating Code...
+     Creating library D:\Study\2semLabs\isp\.NET Lab4\dotNetLab4\x64\Debug\MyCrossplatformLib.lib and object D:\Study\2semLabs\isp\.NET Lab4\dotNetLab4\x64\Debug\MyCrossplatformLib.exp
+  MyCrossplatformLib.vcxproj -> D:\Study\2semLabs\isp\.NET Lab4\dotNetLab4\x64\Debug\MyCrossplatformLib.dll
