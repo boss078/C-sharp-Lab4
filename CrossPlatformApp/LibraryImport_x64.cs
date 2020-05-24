@@ -7,17 +7,18 @@ namespace CrossPlatformApp
 {
   internal class LibraryImport_x64 : ILibraryImport
   {
-    [DllImport("MyCrossplatformLib.dll", CallingConvention = CallingConvention.StdCall, ExactSpelling = false, EntryPoint = "pow")]
-    private static extern int powInternal(int number, int pow);
-    [DllImport("MyCrossplatformLib.dll", CallingConvention = CallingConvention.StdCall, ExactSpelling = false, EntryPoint = "returnPI")] 
-    private static extern float returnPIInternal();
-    public int pow(int number, int pow)
+    
+    [DllImport("MyCrossplatformLib-x64.dll", CallingConvention = CallingConvention.StdCall, ExactSpelling = false, EntryPoint = "pow")]
+    private static extern int PowInternal(int number, int pow);
+    [DllImport("MyCrossplatformLib-x64.dll", CallingConvention = CallingConvention.StdCall, ExactSpelling = false, EntryPoint = "returnPI")] 
+    private static extern float ReturnPIInternal();
+    public int Pow(int number, int pow)
     {
-      return powInternal(number, pow);
+      return PowInternal(number, pow);
     }
-    public float returnPI()
+    public float ReturnPI()
     {
-      return returnPIInternal();
+      return ReturnPIInternal();
     }
   }
 }

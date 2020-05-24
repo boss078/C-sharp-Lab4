@@ -9,8 +9,8 @@ namespace CrossPlatformApp
     static void Main(string[] args)
     {
       ILibraryImport import = LibraryImport.Select();
-      Console.WriteLine(string.Format("pow(2, 8): {0}", import.pow(2, 8)));
-      Console.WriteLine(string.Format("returnPI(): {0}", import.returnPI()));
+      Console.WriteLine(string.Format("pow(2, 8): {0}", import.Pow(2, 8)));
+      Console.WriteLine(string.Format("returnPI(): {0}", import.ReturnPI()));
     }
   }
 }

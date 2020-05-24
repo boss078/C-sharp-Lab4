@@ -4,8 +4,8 @@ namespace CrossPlatformApp
 {
   public interface ILibraryImport
   {
-    int pow(int number, int pow);
+    int Pow(int number, int pow);
 
-    float returnPI();
+    float ReturnPI();
   }
 }
